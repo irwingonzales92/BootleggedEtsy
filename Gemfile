@@ -14,6 +14,7 @@ gem 'autoprefixer-rails'
 gem "paperclip", "~> 4.3"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
+gem 'devise'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
