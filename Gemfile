@@ -12,10 +12,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'autoprefixer-rails'
 gem "paperclip", "~> 4.3"
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18.2'
   gem 'rails_12factor'
 end
 
